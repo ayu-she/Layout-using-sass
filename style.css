@@ -1,0 +1,225 @@
+.btn-style {
+  float: left;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  overflow-x: auto;
+  color: white;
+  margin-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+nav a {
+  color: gray;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav .right-nav {
+  float: right;
+}
+
+.navi {
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  overflow-x: auto;
+}
+
+a:hover {
+  color: black;
+}
+
+.boxes {
+  display: flex;
+  padding: 10px 50px;
+  margin: 10px 0;
+}
+
+.navigate {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row1 {
+  text-align: center;
+  margin: 5px auto;
+  color: gray;
+}
+
+.color {
+  color: blue;
+  background-color: white;
+}
+
+.column {
+  border: 1px solid gainsboro;
+  background-color: white;
+  width: 11vw;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.overview {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.id {
+  margin-right: 20px;
+}
+
+.col {
+  margin: 20px 0;
+  background-color: lightgray;
+  padding-top: 10px;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  margin: 20px 0;
+  color: #fff;
+  padding: 0;
+}
+
+.block1, .block3, .block2 {
+  background-color: steelblue;
+  padding: 8px;
+  width: 25vw;
+  justify-content: space-between;
+}
+
+.block2 {
+  background-color: limegreen;
+}
+
+.block3 {
+  background-color: darkorange;
+}
+
+.image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.blog {
+  background-color: white;
+}
+
+.blogpost {
+  position: absolute;
+  text-align: center;
+  transform: translateY(-10%);
+}
+
+ol li {
+  list-style-type: none;
+}
+
+.display, .card, .about {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.about {
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.card {
+  justify-content: space-between;
+}
+
+.background {
+  background-image: url("https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-color: #cccccc;
+  margin-left: 10px;
+  position: relative;
+  width: 20vw;
+  padding: 0;
+  color: white;
+}
+
+.backdrop {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  overflow-x: auto;
+}
+
+.arrow {
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1611095973362-88e8e2557e58?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-position: center center;
+  padding: 0;
+  width: 150vw;
+}
+
+.arrows {
+  position: absolute;
+  top: 90%;
+}
+
+.img {
+  margin-left: 30px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.content3 {
+  background-color: white;
+  padding: 10px;
+  position: relative;
+}
+
+footer {
+  color: gray;
+}
+
+.block {
+  background-color: blueviolet;
+  overflow-y: auto;
+  height: 50px;
+  position: relative;
+}
+
+.projects {
+  display: flex;
+  background-color: white;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.project {
+  width: 20vw;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
